@@ -1,0 +1,41 @@
+.box h3{
+    font-family: sans-serif;
+    background-color: rgb(83, 226, 55);
+    text-align: center;
+
+}
+.box p{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    height: max-content;
+    width: max-content;
+}
+.box table{
+    width: 100%
+}
+.box table, .box th, .box td{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    /* border-color: black; */
+    /* width: 100%; */
+}
+.box th, .box td{
+    border: 1px solid #020202;
+    text-align: left;
+    padding: 8px;
+    background-color: khaki;
+}
+.box caption{
+    font-family: sans-serif;
+    background-color: rgb(83, 226, 55);
+    text-align: center;
+}
+.box tr:nth-child(even){
+    background-color: chartreuse;
+}
+.box .tr:nth-child(old){
+    color: aqua;
+}

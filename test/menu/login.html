@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login form here</title>
+        <link rel="stylesheet" type="text/css" href="style_font.css">
+        <link rel="stylesheet" href="style_menu.css">
+        
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    </head>
+<body>
+        
+        <div class="container">
+        
+                <div class="row">
+                
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+        
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setting<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html">Log In</a></li>
+                                <li><a href="login.html">Log Out</a></li>
+                                <li><a href="login.html">Add Account</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tim Thong Tin">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hoa Don<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Tao Hoa Don</a></li>
+                                <li><a href="#">Xem Danh Sach Hoa Don</a></li>
+                                <li><a href="#">Sua Hoa Don</a></li>
+                                <li><a href="#">Xoa Hoa Don</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hang Hoa<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Tao Moi Hang Hoa</a></li>
+                                <li><a href="#">Xem Danh Sach Hang Hoa</a></li>
+                                <li><a href="#">Sua Hang Hoa</a></li>
+                                <li><a href="#">Xoa Hang Hoa</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Loai Hang Hoa<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="tao_moi_loai_hang_hoa.html">Tao Moi Loai Hang Hoa</a></li>
+                                    <li><a href="danh_sach_loai_hang_hoa.html">Xem Danh Sach Loai hang Hoa</a></li>
+                                    <li><a href="#">Sua loai Hang Hoa</a></li>
+                                    <li><a href="#">Xoa Loai Hang Hoa</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+        
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thong Ke<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <table>
+                                    <tr>
+                                        <th colspan="3">Doanh Thu</th>
+                                        <td><a href="#">Doanh Thu Theo Thang</a></td>
+                                        <td><a href="#">Doanh Thu Theo Ngay</a></td>
+                                        <td><a href="#">Doanh Thu Hang Hoa Ban Chay Nhat</a></td>                                
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Tong So</th>
+                                        <td><a href="#">Tong So Hang Hoa Nhap Kho</a></td>
+                                        <td><a href="#">Tong So Hang Hoa Xuat Kho</a></td>
+                                        <td><a href="#">Tong So Hang Hoa Da Ban</a></td>                                
+                                    </tr>
+                                </table>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khach Hang<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Khach Hang Mua Nhieu Nhat</a></li>
+                                <li><a href="#">Nhung Khach Hang Than Thiet</a></li>
+                                <li><a href="#">Thong Tin Khach Hang Than Thiet</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+                    
+                </div>
+                
+            </div>
+            
+                
+    <div class="loginbox" >
+        <img src="school.jpg" class="avatar">
+        <h2>Login Here</h2>
+        <form action="menu.html" >
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter password">
+            <input type="submit" name="" value="Login" >
+            <a href="lost_password.html">Lost your password?</a><br>
+            <a href="create_account.html">Create account?</a>
+        </form>
+    </div>
+</body>
+
+</html>

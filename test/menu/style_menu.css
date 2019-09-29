@@ -1,0 +1,26 @@
+.navbar-default {
+    /* margin-top: 20px; */
+    /* padding-top: 10px; */
+    background-color: #98f718 !important;
+    border-color: #e7e7e7;
+
+}
+.container-abc{
+    width: 1200px;
+    text-align: center;
+}
+.loginbox{
+    margin-top: 80px;
+}
+.container table{
+    float: left;
+    width: max-content;
+    height: 100px;
+    border: none;
+    display: block;
+    outline: 0;
+}
+/* .container th, .container tr{
+    width: max-content;
+    height: max-content;
+} */
